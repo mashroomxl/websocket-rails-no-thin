@@ -1,4 +1,4 @@
-**使用多线程服务器，同时，配置中不适用ping心跳，不使用Standalone Server Mode**
+**使用多线程服务器，同时，配置中不使用ping心跳，不使用Standalone Server Mode**
 
 # Websocket-Rails
 
