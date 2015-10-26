@@ -1,3 +1,5 @@
+**使用多线程服务器，同时，配置中不适用ping心跳，不使用Standalone Server Mode**
+
 # Websocket-Rails
 
 [![Build Status](https://travis-ci.org/websocket-rails/websocket-rails.png?branch=master)](https://travis-ci.org/websocket-rails/websocket-rails)
