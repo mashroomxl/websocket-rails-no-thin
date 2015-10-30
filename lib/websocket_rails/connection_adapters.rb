@@ -43,6 +43,9 @@ module WebsocketRails
         @delegate.instance_variable_set(:@_env, request.env)
         @delegate.instance_variable_set(:@_request, request)
 
+        # Make sure service started (by hewei 2015-10-30 10:02)
+        Faye::WebSocket.ensure_reactor_running
+
         start_ping_timer
       end
 
