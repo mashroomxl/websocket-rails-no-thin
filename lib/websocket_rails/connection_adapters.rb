@@ -44,7 +44,7 @@ module WebsocketRails
         @delegate.instance_variable_set(:@_request, request)
 
         # Make sure service started (by hewei 2015-10-30 10:02)
-        Faye::WebSocket.ensure_reactor_running unless EventMachine.reactor_running?
+        # Faye::WebSocket.ensure_reactor_running unless EventMachine.reactor_running?
 
         start_ping_timer if EventMachine.reactor_running?
       end
